@@ -31,7 +31,7 @@ class Home extends StatelessWidget {
               ),
               child: CircleAvatar(
                 radius: MediaQuery.of(context).size.height / 6.5,
-                backgroundImage: AssetImage('images/profile.png'),
+                backgroundImage: AssetImage('images/profile.jpg'),
               ),
             ),
             SizedBox(height: MediaQuery.of(context).size.height / 20),

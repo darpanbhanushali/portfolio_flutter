@@ -23,7 +23,7 @@ class _ContactState extends State<Contact> {
   final fieldText3 = TextEditingController();
   final fieldText4 = TextEditingController();
   final toast = FToast();
-  final formKey = GlobalKey<FormState>();
+  static final formKey = GlobalKey<FormState>();
   late String name;
   late String email;
   late String subject;
@@ -75,7 +75,7 @@ class _ContactState extends State<Contact> {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 30),
                 child: Wrap(
-                  alignment: WrapAlignment.center,
+                  alignment: WrapAlignment.spaceEvenly,
                   children: [
                     InfoContact(
                       query: queryData,
@@ -209,7 +209,7 @@ class _ContactState extends State<Contact> {
                                 ),
                               )
                             : Text(
-                                'Send Message',
+                                'Send Mail',
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold),
