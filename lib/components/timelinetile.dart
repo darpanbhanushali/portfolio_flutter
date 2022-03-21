@@ -77,7 +77,7 @@ class TimelineTileHelper extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 18,
                       color: Colors.grey[600],
-                      fontWeight: FontWeight.w100),
+                      fontWeight: FontWeight.w400),
                 ),
               ),
             ],
