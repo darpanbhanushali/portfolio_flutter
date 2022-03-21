@@ -14,7 +14,7 @@ class InfoContact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: query.size.width / 5,
+      width: query.size.width / 4,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
