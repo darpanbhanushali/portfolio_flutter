@@ -84,7 +84,7 @@ class _ContactState extends State<Contact> {
                       subtext: "+91 9930363344",
                     ),
                     SizedBox(
-                      width: MediaQuery.of(context).size.width / 15,
+                      width: MediaQuery.of(context).size.width / 20,
                     ),
                     InfoContact(
                       query: queryData,
@@ -93,7 +93,7 @@ class _ContactState extends State<Contact> {
                       subtext: "Mumbai, India",
                     ),
                     SizedBox(
-                      width: MediaQuery.of(context).size.width / 15,
+                      width: MediaQuery.of(context).size.width / 20,
                     ),
                     InfoContact(
                       query: queryData,
