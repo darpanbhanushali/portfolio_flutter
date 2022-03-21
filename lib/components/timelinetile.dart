@@ -23,7 +23,7 @@ class TimelineTileHelper extends StatelessWidget {
       indicatorStyle: const IndicatorStyle(
           width: 15, color: Color(0xFF2B5BB0), indicatorXY: 0),
       endChild: Padding(
-        padding: const EdgeInsets.only(left: 10),
+        padding: const EdgeInsets.only(left: 10, top: 2),
         child: Container(
           height:
               (Responsive.isSmallScreen(context) ? 280 : 235000 / query.width),

@@ -275,7 +275,7 @@ class About extends StatelessWidget {
                             'Bachelor Of Engineering In Information Technology',
                         grades: 'CGPA: 8.68',
                         subtext:
-                            'I am pursuing my Bachlors degree in Information Technology from Shah and Anchor Kutchhi Engineering College, Mumbai, India.',
+                            'I am pursuing my Bachelor\'s degree in the field of Information Technology from Shah and Anchor Kutchhi Engineering College, Mumbai, India.',
                       ),
                       TimelineTileHelper(
                         query: query,
@@ -291,7 +291,7 @@ class About extends StatelessWidget {
                         headtext: 'Secondary School Certificate Examination',
                         grades: 'Percentage: 88.2%',
                         subtext:
-                            'Completed my S.S.C from A.I.E.S High School, Mumbai. During this course I learned some core subjects such as Mathematics and Science which helped me build a strong base for my career.',
+                            'Completed my S.S.C from A.I.E.S High School, Mumbai. While in this course core subjects such as Mathematics and Science helped me build a strong base for my career.',
                       ),
                     ],
                   ),

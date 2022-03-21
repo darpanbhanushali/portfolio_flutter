@@ -59,7 +59,7 @@ class Certificates extends StatelessWidget {
                         image: 'images/python.png',
                         headText: 'Full Stack Python Development Certification',
                         subText:
-                            'This Certificate was issued by RPISE for completing Full Stack Python development using Python',
+                            'This Certificate was issued by RPISE for completing Full Stack Python development course',
                       ),
                       CertificatesInfo(
                         link:
@@ -67,7 +67,7 @@ class Certificates extends StatelessWidget {
                         image: 'images/flutter.png',
                         headText: 'Sakec Marathon Application using Flutter',
                         subText:
-                            'This Certificate was issued for developing an application using Flutter ',
+                            'This Certificate was issued by SAKEC for developing an application using Flutter ',
                       ),
                       CertificatesInfo(
                         link:

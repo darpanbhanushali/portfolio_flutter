@@ -53,19 +53,19 @@ class Skills extends StatelessWidget {
                         iconInfo: FontAwesomeIcons.code,
                         headText: 'Python',
                         subText:
-                            'I am a certified python programmer and capable of coding for Full Stack Development using Python.',
+                            'I am a certified python programmer and capable of coding for Full Stack Python Development.',
                       ),
                       ServiceInfo(
                         iconInfo: FontAwesomeIcons.mobileAlt,
                         headText: 'App Development',
                         subText:
-                            'With an experience in Building mobile applications, I am capable of coding using Flutter.',
+                            'With an experience in Building mobile applications, I am capable of building apps using Flutter.',
                       ),
                       ServiceInfo(
                         iconInfo: FontAwesomeIcons.laptopCode,
                         headText: 'Web Development',
                         subText:
-                            'With some experience in develping some projects, I can develop website using HTML, CSS and Javascript.',
+                            'With some experience in developing some projects, I can develop website using HTML, CSS and Javascript.',
                       ),
                     ],
                   ),

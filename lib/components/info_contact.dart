@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_flutter/Services/responsive.dart';
 
 class InfoContact extends StatelessWidget {
   InfoContact(
@@ -14,7 +15,7 @@ class InfoContact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: query.size.width / 4,
+      width: query.size.width / (Responsive.isSmallScreen(context) ? 4 : 5),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
