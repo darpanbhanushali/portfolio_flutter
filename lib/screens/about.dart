@@ -73,7 +73,9 @@ class About extends StatelessWidget {
                 ),
               ),
               Row(
-                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisAlignment: Responsive.isSmallScreen(context)
+                    ? MainAxisAlignment.spaceAround
+                    : MainAxisAlignment.start,
                 children: [
                   Container(
                     width: MediaQuery.of(context).size.width /
